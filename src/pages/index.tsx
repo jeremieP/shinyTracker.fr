@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import LogoLight from './logo-light.png'
+import LogoLight from '@/assets/logo-light.png'
 import Link from "next/link"
-import Twitch from './twitch.png'
+import Twitch from '@/assets/twitch.png'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const today = new Date();
-  const year = today.getFullYear();
+  const today = new Date()
+  const year = today.getFullYear()
 
   return (
     <>
