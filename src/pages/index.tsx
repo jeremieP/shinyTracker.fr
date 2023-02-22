@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 
 // const inter = Inter({ subsets: ['latin'] })
-const inter = () => ''
+const inter = () => ({ className :''})
 
 export default function Home() {
   return (
