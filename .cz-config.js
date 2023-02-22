@@ -10,7 +10,7 @@ module.exports = {
     },
     { value: 'revert', name: 'revert: Revert to a commit' },
   ],
-  skipQuestions: ['footer', 'body'],
+  skipQuestions: ['scope', 'footer', 'body'],
   appendBranchNameToCommitMessage: false,
   allowTicketNumber: false,
 }
