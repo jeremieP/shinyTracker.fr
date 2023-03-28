@@ -11,7 +11,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
-          cache: 'npm'
       - uses: actions/cache@v3
         id: cache-packages  # give it a name for checking the cache hit-or-not
         with:
@@ -30,7 +29,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
-          cache: 'npm'
       - uses: actions/cache@v3
         with:
           path: '**/node_modules'
@@ -46,7 +44,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
-          cache: 'npm'
       - uses: actions/cache@v3
         with:
           path: '**/node_modules'
@@ -62,7 +59,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
-          cache: 'npm'
       - uses: actions/cache@v3
         with:
           path: '**/node_modules'
