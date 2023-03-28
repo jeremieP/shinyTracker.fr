@@ -5,6 +5,6 @@ import Home from '../pages'
 describe('global', () => {
   it('Should render minimal app', () => {
     render(<Home />)
-    expect(screen.getByText('Hello world!')).toBeInTheDocument()
+    expect(screen.getByText('Suivez le projet')).toBeInTheDocument()
   })
 })

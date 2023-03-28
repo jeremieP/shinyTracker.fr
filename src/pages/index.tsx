@@ -23,7 +23,13 @@ export default function Home() {
       </Head>
       <main className="min-h-screen mx-52 text-black">
         <section className="border-b flex justify-center py-12">
-          <Image className="w-72 h-72" src={LogoLight} alt="logo shinytracker" />
+          <Image
+            className="w-72 h-72"
+            src={LogoLight}
+            width={72}
+            height={72}
+            alt="logo shinytracker"
+          />
         </section>
         <section className="border-b flex flex-col justify-center align-center text-center py-12">
           <h2 className="text-4xl leading-10 font-bold mb-6">Bientôt disponible</h2>
@@ -51,7 +57,13 @@ export default function Home() {
                 découvrir une nouvelle techno, ou discuter avec nous en stream !
               </p>
             </div>
-            <Image src={Twitch} alt="logo twitch" className="w-52 h-52 ml-12" />
+            <Image
+              src={Twitch}
+              alt="logo twitch"
+              className="w-52 h-52 ml-12"
+              width={52}
+              height={52}
+            />
           </div>
           <Link
             className="bg-red-500 text-zinc-50 py-4 px-16 rounded-full max-w-fit text-center"
