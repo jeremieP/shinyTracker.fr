@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="min-h-screen mx-52">
+      <main className="min-h-screen mx-52 text-black">
         <section className="border-b flex justify-center py-12">
           <Image className="w-72 h-72" src={LogoLight} alt="logo shinytracker" />
         </section>
